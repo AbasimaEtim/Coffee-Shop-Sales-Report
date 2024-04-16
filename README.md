@@ -1,13 +1,12 @@
 # Coffee Shop Sales Report
 
 ## Introduction:
-This documentation analyzes a coffee shop dataset focusing on coffee and tea sales performance over the past three months (April-June 2023). Since understanding product performance and sales trends is important for informed decision-making within any industry, this analysis aims to uncover valuable insights to help the coffee shop optimize its product offerings, pricing, and marketing efforts. 
+This documentation analyzes the dataset of a small coffee shop chain based in New York City, focusing on coffee and tea sales performance over the past three months (April-June 2023). Since understanding product performance and sales trends is important for informed decision-making within any industry, this analysis aims to uncover valuable insights to help the coffee shop optimize its product offerings, pricing, and marketing efforts. 
 
 #### Tool Used: Power BI
 
-
 ## The Dataset: 
-The Dataset was shared from: 
+The Dataset from: Maven Analytics. 
 Contains 1789404 records and 11 fields with names like;
 - transaction_id: Unique identifier for each transaction.
 - transaction_date: Date when the transaction occurred
@@ -23,7 +22,6 @@ Contains 1789404 records and 11 fields with names like;
 
 
 ## Problem Statement: 
-
 Here are the questions/insights your manager would like to see
 1) We only want to look at the recent 3 months sales, nothing more. 
 2) I know we have a variety of products, but we only want to focus on Coffee and Tea. Not loose tea, coffee beans, just Coffee and Tea.
@@ -35,15 +33,23 @@ Here are the questions/insights your manager would like to see
 ## Data Prepartation:
  I cleaned the data prior to the analysis to be confident in the insights drawn from the data. No duplicate were found. 
  
- - There was no column for service size, so I created a conditional column for Service Size.
+ - A column for service size was missing, prompting the creation of a conditional column for Service Size.
 
    ![](First_Weekly_Analysis.png)
 
-- Created a calculated column for Transaction_month and transaction year
+- Created a calculated column for Transaction month and transaction year
   
   ![](newcolumn.png)
 
+## Key Insights:
+- The total revenue generated during the last three months is $295k.
+- Focusing on two major products (Coffee and Tea), the total revenue generated for Coffee is $171k and for Tea is $124k.
+- Three major locations were identified: Astoria, Hell's Kitchen, and Lower Manhattan. Astoria had the highest sales for both coffee at $57k and tea at $43k, followed by Hell's Kitchen with coffee sales at $58k and tea at $41k, and Lower Manhattan with coffee sales at $56k and tea at $40k.
+- The best-selling coffee product is Barista Espresso, generating $58k in sales. The least selling product is Brewed Green Tea, which brought in $15k in revenue. However, when considering this products, customer preferences, costs, and marketing strategies, removing a product should not be solely based on sales figures.
+- Regarding the service size (Large, Regular, Small) of coffee and tea products, the best-selling categories are Tea (Large), Tea (Regular), and Coffee (Large).
+
 ## The Report:
+![](Screen_report_coffee.png)
 
   
 
