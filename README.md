@@ -49,7 +49,7 @@ Here are the questions/insights your manager would like to see
 - Regarding the service size (Large, Regular, Small) of coffee and tea products, the best-selling categories are Tea (Large), Tea (Regular), and Coffee (Large).
 
 ## The Report:
-![](Screen_report_coffee.png)
+![](SalesReportPage.png)
 
   
 
